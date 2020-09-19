@@ -6,15 +6,16 @@ public class ConversorRomanos implements Conversor {
 
 
     public String convertir(String numero) {
+        int num = Integer.parseInt(numero);
+        return agregarI(num);
+    }
+
+    public String agregarI(int num) {
         String numeroRomano = "";
-        switch(numero) {
-            case "1":
-                numeroRomano = "I";
-                break;
-            case "2":
-                numeroRomano = "II";
-                break;
+        for (int i = 1; i <= num; i++) {
+            numeroRomano += "I";
         }
         return numeroRomano;
     }
 }
+

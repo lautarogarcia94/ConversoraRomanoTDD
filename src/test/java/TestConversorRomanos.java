@@ -17,4 +17,10 @@ public class TestConversorRomanos {
         Conversor conversor = new ConversorRomanos();
         assertTrue(conversor.convertir("2").equalsIgnoreCase("II"));
     }
+
+    @Test
+    public void TestConversorN3(){
+        Conversor conversor = new ConversorRomanos();
+        assertTrue(conversor.convertir("3").equalsIgnoreCase("III"));
+    }
 }
