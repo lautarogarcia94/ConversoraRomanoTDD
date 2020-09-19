@@ -19,8 +19,8 @@
       <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="70">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+              <caret line="47" column="69" lean-forward="true" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,17 +211,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600521853264</updated>
-      <workItem from="1600521856076" duration="7889000" />
+      <workItem from="1600521856076" duration="8333000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 17h 47m 40s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 17h 48m 12s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorRomanos - 2020.09.19 at 17h 53m 55s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
@@ -246,9 +240,15 @@
     <history-entry file="TestConversorRomanos - 2020.09.19 at 18h 07m 12s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 18h 10m 08s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 18h 11m 26s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7889000" />
+    <option name="totallyTimeSpent" value="8333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -323,7 +323,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+          <caret line="47" column="69" lean-forward="true" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -332,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="70">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>

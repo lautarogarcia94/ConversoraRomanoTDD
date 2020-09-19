@@ -12,6 +12,8 @@ public class ConversorRomanos implements Conversor {
                 return "V";
             case 6:
                 return "VI";
+            case 7:
+                return "VII";
         }
         return agregarI(num);
     }

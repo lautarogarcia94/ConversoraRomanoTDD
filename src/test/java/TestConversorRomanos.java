@@ -41,4 +41,10 @@ public class TestConversorRomanos {
         Conversor conversor = new ConversorRomanos();
         assertTrue(conversor.convertir("6").equalsIgnoreCase("VI"));
     }
+
+    @Test
+    public void TestConversorN7(){
+        Conversor conversor = new ConversorRomanos();
+        assertTrue(conversor.convertir("7").equalsIgnoreCase("VII"));
+    }
 }
