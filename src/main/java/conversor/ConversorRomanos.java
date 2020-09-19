@@ -5,8 +5,11 @@ public class ConversorRomanos implements Conversor {
 
     public String convertir(String numero) {
         int num = Integer.parseInt(numero);
-        if(num==4){
-            return "IV";
+        switch (num){
+            case 4:
+                return "IV";
+            case 5:
+                return "V";
         }
         return agregarI(num);
     }
