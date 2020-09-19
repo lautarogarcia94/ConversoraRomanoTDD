@@ -1,12 +1,13 @@
 package conversor;
 
-import java.time.LocalDate;
-
 public class ConversorRomanos implements Conversor {
 
 
     public String convertir(String numero) {
         int num = Integer.parseInt(numero);
+        if(num==4){
+            return "IV";
+        }
         return agregarI(num);
     }
 
