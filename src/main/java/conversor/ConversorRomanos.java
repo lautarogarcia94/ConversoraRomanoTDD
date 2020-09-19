@@ -11,6 +11,8 @@ public class ConversorRomanos implements Conversor {
                 return "IV";
             case 9:
                 return "IX";
+            case 10:
+                return "X";
         }
         if (num <= 3) {
             return convertir1a3(num);
