@@ -9,6 +9,8 @@ public class ConversorRomanos implements Conversor {
         switch (num) {
             case 4:
                 return "IV";
+            case 9:
+                return "IX";
         }
         if (num <= 3) {
             return convertir1a3(num);
