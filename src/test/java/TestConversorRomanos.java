@@ -227,4 +227,14 @@ public class TestConversorRomanos {
         assertTrue(conversor.convertir("595").equalsIgnoreCase("DXCV"));
     }
 
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversor600_1000() {
+        assertTrue(conversor.convertir("635").equalsIgnoreCase("DCXXXV"));
+        assertTrue(conversor.convertir("782").equalsIgnoreCase("DCCLXXXII"));
+        assertTrue(conversor.convertir("843").equalsIgnoreCase("DCCCXLIII"));
+        assertTrue(conversor.convertir("964").equalsIgnoreCase("CMLXIV"));
+        assertTrue(conversor.convertir("1000").equalsIgnoreCase("M"));
+    }
+
 }

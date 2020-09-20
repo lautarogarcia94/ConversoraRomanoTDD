@@ -2,9 +2,9 @@ package conversor;
 
 public class ConversorRomanos implements Conversor {
 
-    private static final String[] letras = {"", "I", "V", "X", "L", "C", "D"};
+    private static final String[] letras = {"", "I", "V", "X", "L", "C", "D", "M"};
 
-    public String convertir(String numero) throws NumberFormatException{
+    public String convertir(String numero) throws NumberFormatException {
         int num = Integer.parseInt(numero);
         String numeroRomano = "";
         int n = 0; //cuenta de digitos del numero (empieza la cuenta del digito en 0)
