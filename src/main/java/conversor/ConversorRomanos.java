@@ -28,8 +28,11 @@ public class ConversorRomanos implements Conversor {
     }
 
     private String convertirDecena(int num) {
-        if (num == 1) {
-            return "X";
+        switch (num){
+            case 1:
+                return"X";
+            case 2:
+                return "XX";
         }
         return "";
     }
