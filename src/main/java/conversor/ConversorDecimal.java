@@ -5,6 +5,12 @@ public class ConversorDecimal implements Conversor {
 
     @Override
     public String convertir(String numero) {
-        return "1";
+        switch (numero){
+            case "I":
+                return "1";
+            case "II":
+                return "2";
+        }
+        return "0";
     }
 }
