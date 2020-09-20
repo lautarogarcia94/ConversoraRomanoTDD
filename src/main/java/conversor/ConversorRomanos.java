@@ -4,7 +4,7 @@ public class ConversorRomanos implements Conversor {
 
     private static final String[] letras = {"", "I", "V", "X", "L", "C", "D"};
 
-    public String convertir(String numero) {
+    public String convertir(String numero) throws NumberFormatException{
         int num = Integer.parseInt(numero);
         String numeroRomano = "";
         int n = 0; //cuenta de digitos del numero (empieza la cuenta del digito en 0)

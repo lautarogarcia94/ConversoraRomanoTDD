@@ -1,5 +1,6 @@
 import conversor.Conversor;
 import conversor.ConversorRomanos;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -7,6 +8,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestConversorRomanos {
     private Conversor conversor = new ConversorRomanos();
 
+
+    @Test
+    void TestConversorException() {
+        Assertions.assertThrows(NumberFormatException.class, () -> conversor.convertir("uno"));
+
+    }
 
     @Test
     public void TestConversorN1() {
