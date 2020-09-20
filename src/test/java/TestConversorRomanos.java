@@ -66,7 +66,6 @@ public class TestConversorRomanos {
         assertTrue(conversor.convertir("10").equalsIgnoreCase("X"));
     }
 
-
     //Se juntan los test para mejor lectura del codigo
     @Test
     public void TestConversor11_19() {
@@ -82,11 +81,11 @@ public class TestConversorRomanos {
         assertTrue(conversor.convertir("19").equalsIgnoreCase("XIX"));
     }
 
-
     //Se juntan los test para mejor lectura del codigo
     @Test
     public void TestConversor20_29() {
         Conversor conversor = new ConversorRomanos();
+        assertTrue(conversor.convertir("20").equalsIgnoreCase("XX"));
         assertTrue(conversor.convertir("21").equalsIgnoreCase("XXI"));
         assertTrue(conversor.convertir("22").equalsIgnoreCase("XXII"));
         assertTrue(conversor.convertir("23").equalsIgnoreCase("XXIII"));
@@ -96,5 +95,21 @@ public class TestConversorRomanos {
         assertTrue(conversor.convertir("27").equalsIgnoreCase("XXVII"));
         assertTrue(conversor.convertir("28").equalsIgnoreCase("XXVIII"));
         assertTrue(conversor.convertir("29").equalsIgnoreCase("XXIX"));
+    }
+
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversor30_39() {
+        Conversor conversor = new ConversorRomanos();
+        assertTrue(conversor.convertir("30").equalsIgnoreCase("XXX"));
+        assertTrue(conversor.convertir("31").equalsIgnoreCase("XXXI"));
+        assertTrue(conversor.convertir("32").equalsIgnoreCase("XXXII"));
+        assertTrue(conversor.convertir("33").equalsIgnoreCase("XXXIII"));
+        assertTrue(conversor.convertir("34").equalsIgnoreCase("XXXIV"));
+        assertTrue(conversor.convertir("35").equalsIgnoreCase("XXXV"));
+        assertTrue(conversor.convertir("36").equalsIgnoreCase("XXXVI"));
+        assertTrue(conversor.convertir("37").equalsIgnoreCase("XXXVII"));
+        assertTrue(conversor.convertir("38").equalsIgnoreCase("XXXVIII"));
+        assertTrue(conversor.convertir("39").equalsIgnoreCase("XXXIX"));
     }
 }

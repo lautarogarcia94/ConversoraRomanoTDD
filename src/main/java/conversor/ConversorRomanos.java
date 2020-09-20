@@ -19,29 +19,23 @@ public class ConversorRomanos implements Conversor {
                 return "IX";
         }
         if (num <= 3) {
-            return agregaUnidad(num, "");
+            return agregaLetra(num, "", "I");
         }
         if (num <= 8) {
-            return agregaUnidad(num-5,"V");
+            return agregaLetra(num-5,"V","I");
         }
         return "";
     }
 
     private String convertirDecena(int num) {
-        switch (num){
-            case 1:
-                return"X";
-            case 2:
-                return "XX";
-        }
-        return "";
+        return agregaLetra(num, "", "X");
     }
 
-    private String agregaUnidad(int num,String numeroRomano) {
+    private String agregaLetra(int num,String numeroInicial, String numeroAgregar) {
         for (int i = 1; i <= num; i++) {
-            numeroRomano += "I";
+            numeroInicial += numeroAgregar;
         }
-        return numeroRomano;
+        return numeroInicial;
     }
 
 }

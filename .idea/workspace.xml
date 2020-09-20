@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,20 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestConversorRomanos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestConversorRomanos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+            <state relative-caret-position="223">
+              <caret line="111" column="63" lean-forward="true" selection-start-line="111" selection-start-column="63" selection-end-line="111" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +62,8 @@
         <option value="$PROJECT_DIR$/src/main/java/conversor/Converosr.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
       </list>
     </option>
   </component>
@@ -211,26 +216,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600521853264</updated>
-      <workItem from="1600521856076" duration="12692000" />
+      <workItem from="1600521856076" duration="13383000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 18h 47m 52s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 18h 48m 06s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 20h 21m 18s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 20h 23m 55s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 20h 24m 14s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorRomanos - 2020.09.19 at 20h 25m 14s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
@@ -246,9 +236,24 @@
     <history-entry file="TestConversorRomanos - 2020.09.19 at 20h 40m 01s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 21h 07m 01s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 21h 07m 55s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 21h 08m 50s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 21h 15m 46s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 21h 16m 06s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12692000" />
+    <option name="totallyTimeSpent" value="13383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -320,19 +325,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="223">
+          <caret line="111" column="63" lean-forward="true" selection-start-line="111" selection-start-column="63" selection-end-line="111" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
           </folding>
         </state>
       </provider>
