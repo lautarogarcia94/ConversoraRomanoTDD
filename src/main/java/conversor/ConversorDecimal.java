@@ -12,6 +12,8 @@ public class ConversorDecimal implements Conversor {
                 return "5";
             case "VI":
                 return "6";
+            case "VII":
+                return "7";
         }
 
         return ""+numero.length();
