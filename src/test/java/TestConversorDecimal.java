@@ -116,4 +116,19 @@ public class TestConversorDecimal {
         assertTrue(conversor.convertir("XXVIII").equalsIgnoreCase("28"));
         assertTrue(conversor.convertir("XXIX").equalsIgnoreCase("29"));
     }
+
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversorN30_N39() {
+        assertTrue(conversor.convertir("XXX").equalsIgnoreCase("30"));
+        assertTrue(conversor.convertir("XXXI").equalsIgnoreCase("31"));
+        assertTrue(conversor.convertir("XXXII").equalsIgnoreCase("32"));
+        assertTrue(conversor.convertir("XXXIII").equalsIgnoreCase("33"));
+        assertTrue(conversor.convertir("XXXIV").equalsIgnoreCase("34"));
+        assertTrue(conversor.convertir("XXXV").equalsIgnoreCase("35"));
+        assertTrue(conversor.convertir("XXXVI").equalsIgnoreCase("36"));
+        assertTrue(conversor.convertir("XXXVII").equalsIgnoreCase("37"));
+        assertTrue(conversor.convertir("XXXVIII").equalsIgnoreCase("38"));
+        assertTrue(conversor.convertir("XXXIX").equalsIgnoreCase("39"));
+    }
 }

@@ -6,6 +6,7 @@ public class ConversorDecimal implements Conversor {
     @Override
     public String convertir(String numero) {
         numero = numero.toUpperCase();
+
         return ""+convertirDecena(numero);
     }
 
@@ -26,16 +27,22 @@ public class ConversorDecimal implements Conversor {
         return num;
     }
 
-    private int convertirDecena(String numero){
+    private int convertirDecena(String numero) {
         int num = 0;
-        if(numero.startsWith("XX")){
-            num = convertirUnidad(numero.substring(2));
-            return num+20 ;
-        }else if(numero.startsWith("X")){
-            num = convertirUnidad(numero.substring(1));
-            return num+10 ;
-        }else{
-            return convertirUnidad(numero);
-        }
+        boolean bandera = true;
+
+        do {
+            if (numero.startsWith("X")) {
+                numero = numero.substring(1);
+                num += 10;
+            } else {
+                bandera = false;
+            }
+        } while (bandera);
+      return num + convertirUnidad(numero);
+
+
     }
+
+
 }
