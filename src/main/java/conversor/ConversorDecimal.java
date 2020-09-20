@@ -13,6 +13,8 @@ public class ConversorDecimal implements Conversor {
                 return "9";
             case "XIV":
                 return "14";
+            case "XIX":
+                return "19";
         }
         return ""+convertirDecena(numero);
     }
