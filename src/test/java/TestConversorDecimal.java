@@ -46,4 +46,9 @@ public class TestConversorDecimal {
     public void TestConversorN8() {
         assertTrue(conversor.convertir("VIII").equalsIgnoreCase("8"));
     }
+
+    @Test
+    public void TestConversorN9() {
+        assertTrue(conversor.convertir("IX").equalsIgnoreCase("9"));
+    }
 }

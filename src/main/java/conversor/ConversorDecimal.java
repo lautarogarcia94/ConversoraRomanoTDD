@@ -8,6 +8,8 @@ public class ConversorDecimal implements Conversor {
         switch (numero){
             case "IV":
                 return "4";
+            case "IX":
+                return "9";
         }
 
         return convertirUnidad(numero);
