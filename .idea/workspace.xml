@@ -287,18 +287,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 47m 39s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 48m 15s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 49m 00s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 52m 56s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 53m 10s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
@@ -315,6 +303,18 @@
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 43m 00s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 43m 20s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 44m 53s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 46m 26s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 46m 58s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
   </component>
