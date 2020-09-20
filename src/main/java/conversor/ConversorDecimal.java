@@ -5,11 +5,14 @@ public class ConversorDecimal implements Conversor {
 
     @Override
     public String convertir(String numero) {
+        numero = numero.toUpperCase();
         switch (numero){
             case "IV":
                 return "4";
             case "IX":
                 return "9";
+            case "X":
+                return "10";
         }
 
         return convertirUnidad(numero);
