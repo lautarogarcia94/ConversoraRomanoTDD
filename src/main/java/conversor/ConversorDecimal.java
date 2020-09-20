@@ -11,18 +11,11 @@ public class ConversorDecimal implements Conversor {
                 return "4";
             case "IX":
                 return "9";
-            case "X":
-                return "10";
-            case"XI":
-                return "11";
-            case"XII":
-                return "12";
         }
-
-        return convertirUnidad(numero);
+        return ""+convertirDecena(numero);
     }
 
-    public String convertirUnidad(String numero){
+    private int convertirUnidad(String numero){
         int num = 0;
         if(numero.contains("V")){
             num = 5 + (numero.length()-1);
@@ -30,6 +23,16 @@ public class ConversorDecimal implements Conversor {
             num = numero.length();
         }
 
-        return ""+num;
+        return num;
+    }
+
+    private int convertirDecena(String numero){
+        int num = 0;
+        if(numero.contains("X")){
+            num = convertirUnidad(numero.substring(1));
+            return num+10 ;
+        }else{
+            return convertirUnidad(numero);
+        }
     }
 }
