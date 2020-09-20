@@ -28,7 +28,10 @@ public class ConversorDecimal implements Conversor {
 
     private int convertirDecena(String numero){
         int num = 0;
-        if(numero.startsWith("X")){
+        if(numero.startsWith("XX")){
+            num = convertirUnidad(numero.substring(2));
+            return num+20 ;
+        }else if(numero.startsWith("X")){
             num = convertirUnidad(numero.substring(1));
             return num+10 ;
         }else{
