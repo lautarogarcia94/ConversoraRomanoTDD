@@ -15,6 +15,8 @@ public class ConversorDecimal implements Conversor {
                 return "10";
             case"XI":
                 return "11";
+            case"XII":
+                return "12";
         }
 
         return convertirUnidad(numero);
