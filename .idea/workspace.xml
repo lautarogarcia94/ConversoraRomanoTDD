@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,22 +16,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+            <state relative-caret-position="51">
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestConversorRomanos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestConversorRomanos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="238" column="68" selection-start-line="238" selection-start-column="68" selection-end-line="238" selection-end-column="68" />
+            <state relative-caret-position="3519">
+              <caret line="207" column="40" selection-start-line="207" selection-start-column="40" selection-end-line="207" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/main/java/conversor/Converosr.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
       </list>
     </option>
   </component>
@@ -233,23 +253,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600521853264</updated>
-      <workItem from="1600521856076" duration="18548000" />
+      <workItem from="1600521856076" duration="19419000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 22h 54m 58s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 22h 55m 53s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 22h 56m 42s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 22h 57m 31s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 01m 32s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
@@ -268,9 +276,21 @@
     <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 22m 23s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 22m 40s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 22m 49s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 35m 23s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 39m 19s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18548000" />
+    <option name="totallyTimeSpent" value="19419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -315,13 +335,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java</url>
-          <line>35</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
@@ -354,20 +367,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="238" column="68" selection-start-line="238" selection-start-column="68" selection-end-line="238" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+        <state relative-caret-position="3519">
+          <caret line="207" column="40" selection-start-line="207" selection-start-column="40" selection-end-line="207" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
