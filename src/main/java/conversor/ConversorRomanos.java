@@ -2,43 +2,37 @@ package conversor;
 
 public class ConversorRomanos implements Conversor {
 
+    private static final String[] letras = {"", "I", "V", "X", "L"};
 
     public String convertir(String numero) {
         int num = Integer.parseInt(numero);
-        String unidad = convertirUnidad(num % 10);
-        String decena = convertirDecena(num / 10);
-
+        String unidad = convertirTodo(num % 10, 1);
+        String decena = convertirTodo(num / 10, 3);
         return decena + unidad;
     }
 
-    private String convertirUnidad(int num) {
+    private String convertirTodo(int num, int index) {
         switch (num) {
             case 4:
-                return "IV";
+                return letras[index] + letras[index + 1];
             case 9:
-                return "IX";
+                return letras[index] + letras[index + 2];
         }
         if (num <= 3) {
-            return agregaLetra(num, "", "I");
+            return agregaLetra(num, 0, index);
         }
         if (num <= 8) {
-            return agregaLetra(num-5,"V","I");
+            return agregaLetra(num - 5, index + 1, index);
         }
         return "";
     }
 
-    private String convertirDecena(int num) {
-        if(num == 4){
-            return "XL";
-        }
-        return agregaLetra(num, "", "X");
-    }
-
-    private String agregaLetra(int num,String numeroInicial, String numeroAgregar) {
+    private String agregaLetra(int num, int indexInicial, int indexAgregar) {
+        String numeroRomano = letras[indexInicial];
         for (int i = 1; i <= num; i++) {
-            numeroInicial += numeroAgregar;
+            numeroRomano += letras[indexAgregar];
         }
-        return numeroInicial;
+        return numeroRomano;
     }
 
 }
