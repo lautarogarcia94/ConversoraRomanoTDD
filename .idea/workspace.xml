@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" afterDir="false" />
     </list>
@@ -20,12 +19,16 @@
       <file leaf-file-name="TestConversorDecimal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="250">
+              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,12 +37,8 @@
       <file leaf-file-name="ConversorDecimal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -77,7 +76,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -283,26 +282,11 @@
       <option name="presentableId" value="Default" />
       <updated>1600521853264</updated>
       <workItem from="1600521856076" duration="20848000" />
-      <workItem from="1600579796150" duration="562000" />
+      <workItem from="1600579796150" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 22m 40s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 22m 49s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 35m 23s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 39m 19s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 40m 54s.xml">
-      <configuration name="TestConversorRomanos" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 47m 39s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
@@ -318,9 +302,24 @@
     <history-entry file="TestConversorRomanos - 2020.09.19 at 23h 53m 10s.xml">
       <configuration name="TestConversorRomanos" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 39m 06s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 39m 26s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 40m 40s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 41m 55s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.20 at 02h 43m 00s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21410000" />
+    <option name="totallyTimeSpent" value="21735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -438,24 +437,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="250">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
