@@ -67,20 +67,16 @@ public class TestConversorRomanos {
     }
 
     @Test
-    public void TestConversorN11(){
+    public void TestConversor11_19(){
         Conversor conversor = new ConversorRomanos();
         assertTrue(conversor.convertir("11").equalsIgnoreCase("XI"));
-    }
-
-    @Test
-    public void TestConversorN12(){
-        Conversor conversor = new ConversorRomanos();
         assertTrue(conversor.convertir("12").equalsIgnoreCase("XII"));
-    }
-
-    @Test
-    public void TestConversorN13(){
-        Conversor conversor = new ConversorRomanos();
         assertTrue(conversor.convertir("13").equalsIgnoreCase("XIII"));
+        assertTrue(conversor.convertir("14").equalsIgnoreCase("XIV"));
+        assertTrue(conversor.convertir("15").equalsIgnoreCase("XV"));
+        assertTrue(conversor.convertir("16").equalsIgnoreCase("XVI"));
+        assertTrue(conversor.convertir("17").equalsIgnoreCase("XVII"));
+        assertTrue(conversor.convertir("18").equalsIgnoreCase("XVIII"));
+        assertTrue(conversor.convertir("19").equalsIgnoreCase("XIX"));
     }
 }
