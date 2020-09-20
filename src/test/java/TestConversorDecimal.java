@@ -31,4 +31,9 @@ public class TestConversorDecimal {
     public void TestConversorN5() {
         assertTrue(conversor.convertir("V").equalsIgnoreCase("5"));
     }
+
+    @Test
+    public void TestConversorN6() {
+        assertTrue(conversor.convertir("VI").equalsIgnoreCase("6"));
+    }
 }

@@ -10,6 +10,8 @@ public class ConversorDecimal implements Conversor {
                 return "4";
             case "V":
                 return "5";
+            case "VI":
+                return "6";
         }
 
         return ""+numero.length();
