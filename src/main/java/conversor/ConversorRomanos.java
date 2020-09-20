@@ -28,6 +28,9 @@ public class ConversorRomanos implements Conversor {
     }
 
     private String convertirDecena(int num) {
+        if(num == 4){
+            return "XL";
+        }
         return agregaLetra(num, "", "X");
     }
 
