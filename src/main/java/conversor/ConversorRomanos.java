@@ -2,7 +2,7 @@ package conversor;
 
 public class ConversorRomanos implements Conversor {
 
-    private static final String[] letras = {"", "I", "V", "X", "L", "C"};
+    private static final String[] letras = {"", "I", "V", "X", "L", "C", "D"};
 
     public String convertir(String numero) {
         int num = Integer.parseInt(numero);
@@ -11,7 +11,7 @@ public class ConversorRomanos implements Conversor {
         do {
             numeroRomano = convertirTodo(num % 10, (n * 2) + 1) + numeroRomano;
             n++;
-            num= num/10;
+            num = num / 10;
         } while (num > 0);
         return numeroRomano;
     }
