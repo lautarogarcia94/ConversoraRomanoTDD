@@ -6,9 +6,14 @@ public class ConversorRomanos implements Conversor {
 
     public String convertir(String numero) {
         int num = Integer.parseInt(numero);
-        String unidad = convertirTodo(num % 10, 1);
-        String decena = convertirTodo(num / 10, 3);
-        return decena + unidad;
+        String numeroRomano = "";
+        int n = 0; //cuenta de digitos del numero (empieza la cuenta del digito en 0)
+        do {
+            numeroRomano = convertirTodo(num % 10, (n * 2) + 1) + numeroRomano;
+            n++;
+            num= num/10;
+        } while (num > 0);
+        return numeroRomano;
     }
 
     private String convertirTodo(int num, int index) {
