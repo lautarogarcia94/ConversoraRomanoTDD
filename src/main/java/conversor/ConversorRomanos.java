@@ -2,7 +2,7 @@ package conversor;
 
 public class ConversorRomanos implements Conversor {
 
-    private static final String[] letras = {"", "I", "V", "X", "L"};
+    private static final String[] letras = {"", "I", "V", "X", "L", "C"};
 
     public String convertir(String numero) {
         int num = Integer.parseInt(numero);
