@@ -181,4 +181,21 @@ public class TestConversorDecimal {
         assertTrue(conversor.convertir("CLXXXIV").equalsIgnoreCase("184"));
         assertTrue(conversor.convertir("CXCIX").equalsIgnoreCase("199"));
     }
+
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversor200_599() {
+        assertTrue(conversor.convertir("CCXIX").equalsIgnoreCase("219"));
+        assertTrue(conversor.convertir("CCLVII").equalsIgnoreCase("257"));
+        assertTrue(conversor.convertir("CCXCVI").equalsIgnoreCase("296"));
+        assertTrue(conversor.convertir("CCCXXIX").equalsIgnoreCase("329"));
+        assertTrue(conversor.convertir("CCCLVI").equalsIgnoreCase("356"));
+        assertTrue(conversor.convertir("CCCLXXXI").equalsIgnoreCase("381"));
+        assertTrue(conversor.convertir("CDVI").equalsIgnoreCase("406"));
+        assertTrue(conversor.convertir("CDLXII").equalsIgnoreCase("462"));
+        assertTrue(conversor.convertir("CDLXXX").equalsIgnoreCase("480"));
+        assertTrue(conversor.convertir("DXXXI").equalsIgnoreCase("531"));
+        assertTrue(conversor.convertir("DLXXXIII").equalsIgnoreCase("583"));
+        assertTrue(conversor.convertir("DXCV").equalsIgnoreCase("595"));
+    }
 }
