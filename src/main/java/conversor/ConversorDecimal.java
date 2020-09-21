@@ -2,7 +2,7 @@ package conversor;
 
 public class ConversorDecimal implements Conversor {
 
-    private static final String[] letras = {"", "I", "V", "X", "L", "C", "D"};
+    private static final String[] letras = {"", "I", "V", "X", "L", "C", "D", "M"};
 
     @Override
     public String convertir(String numero) {

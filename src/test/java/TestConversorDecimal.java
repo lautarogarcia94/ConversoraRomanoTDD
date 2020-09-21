@@ -198,4 +198,14 @@ public class TestConversorDecimal {
         assertTrue(conversor.convertir("DLXXXIII").equalsIgnoreCase("583"));
         assertTrue(conversor.convertir("DXCV").equalsIgnoreCase("595"));
     }
+
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversor600_1000() {
+        assertTrue(conversor.convertir("DCXXXV").equalsIgnoreCase("635"));
+        assertTrue(conversor.convertir("DCCLXXXII").equalsIgnoreCase("782"));
+        assertTrue(conversor.convertir("DCCCXLIII").equalsIgnoreCase("843"));
+        assertTrue(conversor.convertir("CMLXIV").equalsIgnoreCase("964"));
+        assertTrue(conversor.convertir("m").equalsIgnoreCase("1000"));
+    }
 }
