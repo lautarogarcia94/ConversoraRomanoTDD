@@ -170,4 +170,15 @@ public class TestConversorDecimal {
         assertTrue(conversor.convertir("LXXXIX").equalsIgnoreCase("89"));
         assertTrue(conversor.convertir("XCIII").equalsIgnoreCase("93"));
     }
+
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversor100_199() {
+        assertTrue(conversor.convertir("CI").equalsIgnoreCase("101"));
+        assertTrue(conversor.convertir("CXXVII").equalsIgnoreCase("127"));
+        assertTrue(conversor.convertir("CLIX").equalsIgnoreCase("159"));
+        assertTrue(conversor.convertir("CLXIII").equalsIgnoreCase("163"));
+        assertTrue(conversor.convertir("CLXXXIV").equalsIgnoreCase("184"));
+        assertTrue(conversor.convertir("CXCIX").equalsIgnoreCase("199"));
+    }
 }
