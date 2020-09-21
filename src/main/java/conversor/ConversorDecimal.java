@@ -5,8 +5,8 @@ public class ConversorDecimal implements Conversor {
     private static final String[] letras = {"", "I", "V", "X", "L", "C", "D", "M"};
 
     @Override
-    public String convertir(String numero) {
-        return "" + convertirNumero(numero, 0);
+    public String convertir(String paramConvertir) {
+        return "" + convertirNumero(paramConvertir, 0);
     }
 
     private int convertirNumero(String numero, int indexAntes) {

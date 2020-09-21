@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="38" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -80,15 +82,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConversorDecimal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConversorDecimal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+            <state relative-caret-position="136">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding>
                 <element signature="e#211#212#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conversor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/conversor/Conversor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -110,13 +121,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/conversor/Converosr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
       </list>
     </option>
   </component>
@@ -146,6 +157,11 @@
             <path>
               <item name="conversorNumeros" type="b2602c69:ProjectViewProjectNode" />
               <item name="Conversor numeros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conversorNumeros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Conversor numeros" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="conversorNumeros" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +375,7 @@
       <updated>1600521853264</updated>
       <workItem from="1600521856076" duration="20848000" />
       <workItem from="1600579796150" duration="17690000" />
-      <workItem from="1600695611002" duration="6909000" />
+      <workItem from="1600695611002" duration="8530000" />
     </task>
     <servers />
   </component>
@@ -396,10 +412,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45447000" />
+    <option name="totallyTimeSpent" value="47068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -412,11 +429,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.2640264" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.2640264" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25718608" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -536,13 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/Conversor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -554,13 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="365" selection-start-line="365" selection-end-line="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="38" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -616,14 +619,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11006">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/Conversor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="80" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="80" />
+        <state relative-caret-position="136">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
         </state>
       </provider>
     </entry>
