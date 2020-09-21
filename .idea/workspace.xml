@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,7 +126,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -361,14 +359,11 @@
       <updated>1600521853264</updated>
       <workItem from="1600521856076" duration="20848000" />
       <workItem from="1600579796150" duration="17690000" />
-      <workItem from="1600695611002" duration="6300000" />
+      <workItem from="1600695611002" duration="6909000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 55m 13s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 56m 38s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
@@ -396,13 +391,15 @@
     <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 56m 16s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 14h 51m 58s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44838000" />
+    <option name="totallyTimeSpent" value="45447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" />
