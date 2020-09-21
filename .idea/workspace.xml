@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="45" selection-start-line="4" selection-end-line="5" />
+            <state relative-caret-position="17">
+              <caret line="4" column="38" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file leaf-file-name="ConversorDecimal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -258,14 +257,14 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestConversorRomanos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConversorDecimal.TestConversorN9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversorNumeros" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConversorRomanos" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestConversorDecimal" />
+      <option name="METHOD_NAME" value="TestConversorN9" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -314,19 +313,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestConversorRomanos" />
       <item itemvalue="JUnit.TestConversorDecimal" />
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.TestConversorDecimal.TestConversorN6" />
       <item itemvalue="JUnit.TestConversorDecimal.TestConversorN17" />
+      <item itemvalue="JUnit.TestConversorDecimal.TestConversorN9" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestConversorDecimal" />
-        <item itemvalue="JUnit.TestConversorDecimal.TestConversorN17" />
+        <item itemvalue="JUnit.TestConversorDecimal.TestConversorN9" />
         <item itemvalue="JUnit.TestConversorDecimal.TestConversorN6" />
+        <item itemvalue="JUnit.TestConversorDecimal.TestConversorN17" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.TestConversorRomanos" />
       </list>
     </recent_temporary>
   </component>
@@ -342,44 +341,44 @@
       <updated>1600521853264</updated>
       <workItem from="1600521856076" duration="20848000" />
       <workItem from="1600579796150" duration="17690000" />
-      <workItem from="1600695611002" duration="601000" />
+      <workItem from="1600695611002" duration="4404000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 01m 20s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 38m 20s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal_TestConversorN17 - 2020.09.20 at 22h 02m 36s.xml">
-      <configuration name="TestConversorDecimal.TestConversorN17" configurationId="JUnit" />
+    <history-entry file="TestConversorDecimal_TestConversorN9 - 2020.09.21 at 12h 42m 31s.xml">
+      <configuration name="TestConversorDecimal.TestConversorN9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal_TestConversorN17 - 2020.09.20 at 22h 02m 52s.xml">
-      <configuration name="TestConversorDecimal.TestConversorN17" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 02m 57s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 42m 35s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 04m 08s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 46m 39s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 08m 39s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 47m 25s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 09m 37s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 47m 42s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 10m 33s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 47m 48s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 40m 45s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 48m 04s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.20 at 22h 43m 01s.xml">
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 50m 04s.xml">
+      <configuration name="TestConversorDecimal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 50m 44s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39139000" />
+    <option name="totallyTimeSpent" value="42942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -387,6 +386,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32838285" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -395,7 +395,7 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.2640264" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.2640264" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
@@ -413,7 +413,6 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32838285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +423,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -500,6 +499,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4012">
           <caret line="236" column="66" selection-start-line="236" selection-start-column="66" selection-end-line="236" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -522,6 +526,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="212" column="47" lean-forward="true" selection-start-line="212" selection-end-line="213" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -581,15 +590,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="17">
+          <caret line="4" column="38" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

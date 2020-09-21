@@ -2,37 +2,44 @@ package conversor;
 
 public class ConversorDecimal implements Conversor {
 
+    private static final String[] letras = {"", "I", "V", "X", "L",};
 
     @Override
     public String convertir(String numero) {
         numero = numero.toUpperCase();
-        return "" + convertirNumero(numero, "");
+        return "" + convertirNumero2(numero, 0);
     }
 
-    private int convertirNumero(String numero, String letraAntes) {
-
+    private int convertirNumero2(String numero, int indexAntes) {
+        int num;
         if (numero.equals("")) {
             return 0;
         }
-        switch (numero.substring(0, 1)) {
-            case "L":
-                if (letraAntes.equals("X")) {
-                    return 30 + convertirNumero(numero.substring(1), "L");
+        for (int i = 0; i < letras.length; i++) {
+            if (numero.substring(0, 1).equals(letras[i])) {
+                if (indexAntes < i && indexAntes != 0) {//verifica si el numero anterior era menor que el actual, por ej: IV, XL
+                    num = numeroSuma(i) - 2 * numeroSuma(indexAntes); //resta 2*anterior en caso de ser necesario (para formar el numero real)
+                } else {
+                    num = numeroSuma(i);
                 }
-                return 50 + convertirNumero(numero.substring(1), "L");
-            case "X":
-                if (letraAntes.equals("I")) {
-                    return 8 + convertirNumero(numero.substring(1), "X");
-                }
-                return 10 + convertirNumero(numero.substring(1), "X");
-            case "V":
-                if (letraAntes.equals("I")) {
-                    return 3 + convertirNumero(numero.substring(1), "V");
-                }
-                return 5 + convertirNumero(numero.substring(1), "V");
-            case "I":
-                return 1 + convertirNumero(numero.substring(1), "I");
+                return num + convertirNumero2(numero.substring(1), i);
+            }
         }
         return 0;
     }
+
+    private int numeroSuma(int index) {
+        int num;
+        if (index % 2 == 0) {
+            num = 5;
+        } else {
+            num = 1;
+        }
+        while (index > 2) {
+            num *= 10;
+            index -= 2;
+        }
+        return num;
+    }
+
 }
