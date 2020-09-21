@@ -17,13 +17,16 @@ public class ConversorDecimal implements Conversor {
                 return 4;
             case "IX":
                 return 9;
-        }
-        if(numero.contains("V")){
-            num = 5 + (numero.length()-1);
-        }else {
-            num = numero.length();
+            case "":
+                return 0;
         }
 
+        switch (numero.substring(0,1)){
+            case "V":
+                return 5 + convertirUnidad(numero.substring(1));
+            case "I":
+                return 1 + convertirUnidad(numero.substring(1));
+        }
         return num;
     }
 
