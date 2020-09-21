@@ -146,4 +146,19 @@ public class TestConversorDecimal {
         assertTrue(conversor.convertir("XLVIII").equalsIgnoreCase("48"));
         assertTrue(conversor.convertir("XLIX").equalsIgnoreCase("49"));
     }
+
+    //Se juntan los test para mejor lectura del codigo
+    @Test
+    public void TestConversorN50_N59() {
+        assertTrue(conversor.convertir("L").equalsIgnoreCase("50"));
+        assertTrue(conversor.convertir("LI").equalsIgnoreCase("51"));
+        assertTrue(conversor.convertir("LII").equalsIgnoreCase("52"));
+        assertTrue(conversor.convertir("LIII").equalsIgnoreCase("53"));
+        assertTrue(conversor.convertir("LIV").equalsIgnoreCase("54"));
+        assertTrue(conversor.convertir("LV").equalsIgnoreCase("55"));
+        assertTrue(conversor.convertir("LVI").equalsIgnoreCase("56"));
+        assertTrue(conversor.convertir("LVII").equalsIgnoreCase("57"));
+        assertTrue(conversor.convertir("LVIII").equalsIgnoreCase("58"));
+        assertTrue(conversor.convertir("LIX").equalsIgnoreCase("59"));
+    }
 }
