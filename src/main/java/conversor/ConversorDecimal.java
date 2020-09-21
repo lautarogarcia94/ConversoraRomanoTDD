@@ -31,6 +31,10 @@ public class ConversorDecimal implements Conversor {
         int num = 0;
         boolean bandera = true;
 
+        if(numero.startsWith("XL")){
+            numero = numero.substring(2);
+            return 40 + convertirUnidad(numero);
+        }
         do {
             if (numero.startsWith("X")) {
                 numero = numero.substring(1);
