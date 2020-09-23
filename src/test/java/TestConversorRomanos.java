@@ -16,6 +16,25 @@ public class TestConversorRomanos {
     }
 
     @Test
+    void TestConversorException_1() {
+        Assertions.assertThrows(NumberFormatException.class, () -> conversor.convertir("1 1"));
+
+    }
+
+    @Test
+    void TestConversorException_2() {
+        Assertions.assertThrows(NumberFormatException.class, () -> conversor.convertir("1.1"));
+
+    }
+
+    @Test
+    void TestConversorException_3() {
+        assertTrue(conversor.convertir("2 ").equalsIgnoreCase("II"));
+        assertTrue(conversor.convertir(" 2 ").equalsIgnoreCase("II"));
+        assertTrue(conversor.convertir(" 2").equalsIgnoreCase("II"));
+    }
+
+    @Test
     public void TestConversorN1() {
         assertTrue(conversor.convertir("1").equalsIgnoreCase("I"));
     }

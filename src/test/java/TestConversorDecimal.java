@@ -1,5 +1,6 @@
 import conversor.Conversor;
 import conversor.ConversorDecimal;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -7,6 +8,46 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestConversorDecimal {
 
     private Conversor conversor = new ConversorDecimal();
+
+    @Test
+    void TestConversorException() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> conversor.convertir(" "));
+    }
+
+    @Test
+    void TestConversorException_1() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> conversor.convertir(""));
+    }
+
+    @Test
+    void TestConversorException_2() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> conversor.convertir("152"));
+    }
+
+    @Test
+    void TestConversorException_3() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> conversor.convertir("XXA"));
+    }
+
+    @Test
+    void TestConversorException_4() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> conversor.convertir("X X"));
+    }
+
+    @Test
+    void TestConversorException_5() {
+        assertTrue(conversor.convertir("II ").equalsIgnoreCase("2"));
+    }
+
+    @Test
+    void TestConversorException_6() {
+        assertTrue(conversor.convertir(" II ").equalsIgnoreCase("2"));
+    }
+
+    @Test
+    void TestConversorException_7() {
+        assertTrue(conversor.convertir(" II").equalsIgnoreCase("2"));
+    }
 
     @Test
     public void TestConversorN1() {
