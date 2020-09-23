@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +16,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+            <state relative-caret-position="279">
+              <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestConversorRomanos.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,12 +137,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/conversor/Converosr.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
       </list>
     </option>
   </component>
@@ -231,21 +246,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestConversorDecimal.TestConversorN6">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="conversorNumeros" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestConversorRomanos.TestConversorException_2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestConversorDecimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in conversorNumeros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversorNumeros" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConversorDecimal" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestConversorRomanos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="conversorNumeros" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConversorRomanos" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -257,13 +284,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestConversorDecimal.TestConversorN17" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConversorRomanos.TestConversorException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversorNumeros" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConversorDecimal" />
-      <option name="METHOD_NAME" value="TestConversorN17" />
+      <option name="MAIN_CLASS_NAME" value="TestConversorRomanos" />
+      <option name="METHOD_NAME" value="TestConversorException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -274,13 +301,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestConversorDecimal.TestConversorN6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConversorRomanos.TestConversorException_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversorNumeros" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConversorDecimal" />
-      <option name="METHOD_NAME" value="TestConversorN6" />
+      <option name="MAIN_CLASS_NAME" value="TestConversorRomanos" />
+      <option name="METHOD_NAME" value="TestConversorException_1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -291,13 +318,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestConversorDecimal.TestConversorN9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestConversorRomanos.TestConversorException_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conversorNumeros" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConversorDecimal" />
-      <option name="METHOD_NAME" value="TestConversorN9" />
+      <option name="MAIN_CLASS_NAME" value="TestConversorRomanos" />
+      <option name="METHOD_NAME" value="TestConversorException_2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -347,19 +374,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestConversorDecimal" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.TestConversorDecimal.TestConversorN6" />
-      <item itemvalue="JUnit.TestConversorDecimal.TestConversorN17" />
-      <item itemvalue="JUnit.TestConversorDecimal.TestConversorN9" />
+      <item itemvalue="JUnit.All in conversorNumeros" />
+      <item itemvalue="JUnit.TestConversorRomanos.TestConversorException_1" />
+      <item itemvalue="JUnit.TestConversorRomanos.TestConversorException_2" />
+      <item itemvalue="JUnit.TestConversorRomanos" />
+      <item itemvalue="JUnit.TestConversorRomanos.TestConversorException" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestConversorDecimal.TestConversorN6" />
-        <item itemvalue="JUnit.TestConversorDecimal" />
-        <item itemvalue="JUnit.TestConversorDecimal.TestConversorN9" />
-        <item itemvalue="JUnit.TestConversorDecimal.TestConversorN17" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.TestConversorRomanos.TestConversorException_2" />
+        <item itemvalue="JUnit.TestConversorRomanos.TestConversorException_1" />
+        <item itemvalue="JUnit.TestConversorRomanos.TestConversorException" />
+        <item itemvalue="JUnit.TestConversorRomanos" />
+        <item itemvalue="JUnit.All in conversorNumeros" />
       </list>
     </recent_temporary>
   </component>
@@ -375,32 +402,11 @@
       <updated>1600521853264</updated>
       <workItem from="1600521856076" duration="20848000" />
       <workItem from="1600579796150" duration="17690000" />
-      <workItem from="1600695611002" duration="17667000" />
+      <workItem from="1600695611002" duration="18291000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 12h 58m 53s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 49m 30s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 51m 50s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 52m 02s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 52m 47s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 56m 05s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConversorDecimal - 2020.09.21 at 13h 56m 16s.xml">
-      <configuration name="TestConversorDecimal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConversorDecimal - 2020.09.21 at 14h 51m 58s.xml">
       <configuration name="TestConversorDecimal" configurationId="JUnit" />
     </history-entry>
@@ -410,9 +416,30 @@
     <history-entry file="TestConversorDecimal_TestConversorN6 - 2020.09.22 at 22h 42m 25s.xml">
       <configuration name="TestConversorDecimal.TestConversorN6" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_conversorNumeros - 2020.09.22 at 23h 28m 45s.xml">
+      <configuration name="All in conversorNumeros" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos_TestConversorException_1 - 2020.09.22 at 23h 34m 43s.xml">
+      <configuration name="TestConversorRomanos.TestConversorException_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos_TestConversorException_1 - 2020.09.22 at 23h 34m 52s.xml">
+      <configuration name="TestConversorRomanos.TestConversorException_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos_TestConversorException_2 - 2020.09.22 at 23h 36m 50s.xml">
+      <configuration name="TestConversorRomanos.TestConversorException_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos - 2020.09.22 at 23h 36m 58s.xml">
+      <configuration name="TestConversorRomanos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos_TestConversorException - 2020.09.22 at 23h 37m 22s.xml">
+      <configuration name="TestConversorRomanos.TestConversorException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConversorRomanos_TestConversorException_2 - 2020.09.22 at 23h 38m 09s.xml">
+      <configuration name="TestConversorRomanos.TestConversorException_2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56205000" />
+    <option name="totallyTimeSpent" value="56829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -560,18 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="229" column="4" selection-start-line="229" selection-start-column="4" selection-end-line="237" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11006">
@@ -646,8 +661,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+        <state relative-caret-position="279">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestConversorRomanos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ public class ConversorRomanos implements Conversor {
      *                               paramConvertir a un int.
      */
     public String convertir(String paramConvertir) throws NumberFormatException {
-        int num = Integer.parseInt(paramConvertir);
+        int num = Integer.parseInt(paramConvertir.trim());
         String numeroRomano = "";
         int n = 0; //cuenta de digitos del numero (empieza la cuenta del digito en 0)
         do {
