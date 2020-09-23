@@ -4,6 +4,7 @@
     <list default="true" id="1d556790-22af-4d48-9c72-95f6e73ad8b0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConversorRomanos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="109">
+              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -67,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConversorDecimal.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConversorDecimal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
               <folding>
                 <element signature="e#602#603#0" expanded="true" />
                 <element signature="e#664#665#0" expanded="true" />
@@ -124,9 +125,9 @@
         <option value="$PROJECT_DIR$/src/test/java/TestConversorRomanos.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/Conversor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestConversorDecimal.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java" />
       </list>
     </option>
   </component>
@@ -374,7 +375,7 @@
       <updated>1600521853264</updated>
       <workItem from="1600521856076" duration="20848000" />
       <workItem from="1600579796150" duration="17690000" />
-      <workItem from="1600695611002" duration="15627000" />
+      <workItem from="1600695611002" duration="17667000" />
     </task>
     <servers />
   </component>
@@ -411,7 +412,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54165000" />
+    <option name="totallyTimeSpent" value="56205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -585,10 +586,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+          <folding>
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -639,14 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorDecimal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversor/ConversorRomanos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="109">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
         </state>
       </provider>
     </entry>

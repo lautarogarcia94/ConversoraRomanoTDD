@@ -1,14 +1,13 @@
 package conversor;
 
 /**
- * Clase que implementa la interfaz Conversor, para convertir un numero romano transformarlo en un
+ * Clase que implementa la interfaz Conversor, para convertir un numero romano en un
  * numero decimal. El numero romano a convertir puede estar indistintamente en mayusculas,
  * minusculas o ambas. El numero mas grande que esta clase puede devolver es el 3999.
  */
 public class ConversorDecimal implements Conversor {
 
     private static final String[] letras = {"", "I", "V", "X", "L", "C", "D", "M"};
-    
     @Override
     public String convertir(String paramConvertir) {
         return "" + convertirNumero(paramConvertir, 0);
