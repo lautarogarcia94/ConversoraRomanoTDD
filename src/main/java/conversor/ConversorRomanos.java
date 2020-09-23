@@ -3,7 +3,7 @@ package conversor;
 /**
  * Clase que implementa la interfaz Conversor, para convertir un numero decimal en un
  * numero romano. El numero decimal a convertir debe ser ingresado como String. El
- * numero romano devuelto siempre estara en mayusculas. *
+ * numero romano devuelto siempre estara en mayusculas.
  * El numero mas grande que esta clase puede devolver es el 3999.
  */
 public class ConversorRomanos implements Conversor {
@@ -21,7 +21,12 @@ public class ConversorRomanos implements Conversor {
      *                               paramConvertir a un int.
      */
     public String convertir(String paramConvertir) throws NumberFormatException {
-        int num = Integer.parseInt(paramConvertir.trim());
+        int num;
+        try {
+            num = Integer.parseInt(paramConvertir.trim());
+        } catch (NumberFormatException e) {
+            throw new NumberFormatException("Dato ingresado no valido");
+        }
         String numeroRomano = "";
         int n = 0; //cuenta de digitos del numero (empieza la cuenta del digito en 0)
         do {
@@ -36,15 +41,15 @@ public class ConversorRomanos implements Conversor {
      * Retorna la/s letra/s correspondientes al digito pasado como parametro, teniendo en
      * cuenta el indice del Array letras[]. Si el digito es 4, y el indice es 1, el valor
      * retornado sera:
-     *      *  letras[1] + letras[2] = IV
-     *
+     * *  letras[1] + letras[2] = IV
+     * <p>
      * Si el digito no es 4 o 9 (casos especiales), se deja la logica de la asignacion al
      * metodo agregaLetra().
      *
      * @param digito digito a convertir
-     * @param index indice del Array letras[] que se toma como referencia para agregar la letra,
-     *              tiene relacion con la posicion del digito en el numero decimal (Unidad,
-     *              Decena, etc)
+     * @param index  indice del Array letras[] que se toma como referencia para agregar la letra,
+     *               tiene relacion con la posicion del digito en el numero decimal (Unidad,
+     *               Decena, etc)
      * @return String que contiene la/s letra/s correspondientes al numero romano
      */
     private String convertirDigito(int digito, int index) {
@@ -67,7 +72,7 @@ public class ConversorRomanos implements Conversor {
      * Tomando como referencia el Array letras[], y los indices pasados por parametros,
      * forma el String correspondiente al numero romano.
      *
-     * @param digito numero a convertir
+     * @param digito       numero a convertir
      * @param indexInicial indice de la letra que inicia el numero romano
      * @param indexAgregar indice de la letra que se "suma" para formar el numero romano
      * @return String con las letras correspondientes al digito pasado por parametro

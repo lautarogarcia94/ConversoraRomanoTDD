@@ -8,9 +8,36 @@ package conversor;
 public class ConversorDecimal implements Conversor {
 
     private static final String[] letras = {"", "I", "V", "X", "L", "C", "D", "M"};
+
     @Override
-    public String convertir(String paramConvertir) {
-        return "" + convertirNumero(paramConvertir, 0);
+    public String convertir(String paramConvertir) throws IllegalArgumentException {
+
+        if (!validarString(paramConvertir.trim())) {
+            throw new IllegalArgumentException("Dato ingresado no valido");
+        }
+        return "" + convertirNumero(paramConvertir.trim(), 0);
+    }
+
+    private boolean validarString(String parametro) {
+        String letra;
+        boolean valido = false;
+
+        if(parametro.isEmpty())
+            return false;
+
+        for (int i = 0; i < parametro.length(); i++) {
+            letra = parametro.substring(i, i + 1);
+            for (String letraRomana : letras) {
+                if (letra.equalsIgnoreCase(letraRomana)){
+                    valido = true;
+                }
+            }
+            if(!valido){
+                return false;
+            }
+            valido = false;
+        }
+        return true;
     }
 
     /**
@@ -22,15 +49,15 @@ public class ConversorDecimal implements Conversor {
      * 10 correspondiente a la X. En la segunda iteracion como sigue una letra de mayor denominacion ("L")
      * que la anterior ("X"), genera el valor 50 correspondiente a la L y le resta 2 veces el valor de X,
      * para generar el numero 30 que sumado al 10 de la primera iteracion da como resultado 40:
-     *
+     * <p>
      * 1ra iteracion: primera letra es X, e indexAntes apunta a ""  ---> numero = 10
      * 2da iteracion: primera letra es L, e indexAntes apunta a X   ---> numero = 30
      * Resultado:  XL = 10 + 30 = 40
-     *
+     * <p>
      * IMPORTANTE: En la primera llamada a este metodo se debe colocar como indexAntes el valor 0, que
-     *             corresponde al valor letras[0] = ""
+     * corresponde al valor letras[0] = ""
      *
-     * @param numero String que contiene todas las letras que falta por convertir
+     * @param numero     String que contiene todas las letras que falta por convertir
      * @param indexAntes indice del Array letras correspondiente a la letra analizada anteriormente
      * @return int numero decimal correspondiente al numero romano
      */
@@ -56,19 +83,18 @@ public class ConversorDecimal implements Conversor {
      * Metodo que calcula el numero decimal que representa cada letra, tomando como parametro el indice de
      * la posicion en el Array letras[] que ocupa. Para realizar esto, se toma en cuenta las siguientes
      * condiciones:
-     *  1) Si el indice es multiplo de 2, entonces el valor a retornar sera un multiplo de 5, sino sera 1
-     *     o multiplo de 10.
-     *  2) Cada 2 posiciones en el Array, a partir del indice 2, el valor a retornar debe multiplicarse
-     *     por 10. Las posiciones 1 y 2 no aplican ninguna multiplicacion; las posiciones 3 y 4 multiplican
-     *     por 10. Las posiciones 5 y 6 multiplican por 100; y la posicion 7 multiplica por 1000
-     *
+     * 1) Si el indice es multiplo de 2, entonces el valor a retornar sera un multiplo de 5, sino sera 1
+     * o multiplo de 10.
+     * 2) Cada 2 posiciones en el Array, a partir del indice 2, el valor a retornar debe multiplicarse
+     * por 10. Las posiciones 1 y 2 no aplican ninguna multiplicacion; las posiciones 3 y 4 multiplican
+     * por 10. Las posiciones 5 y 6 multiplican por 100; y la posicion 7 multiplica por 1000
+     * <p>
      * Por ejemplo:
      * Para el indice 2 correspondiente a la letra V, tenemos que el indice es multiplo de 2,
      * por lo que el valor a retornar sera un multiplo de 5, y como el indice no es mayor que 2, el valor
      * retornado será 5.
      * Para el indice 5 correspondiente a la letra C, el valor retornado no sera multiplo de 5, luego por la
      * segunda condicion será 100.
-     *
      *
      * @param index indice del Array letras[] a convertir
      * @return valor equivalente a la letra romana, en numeros decimales
